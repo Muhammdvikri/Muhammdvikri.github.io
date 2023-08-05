@@ -1,0 +1,111 @@
+/* Gaya untuk elemen header, nav, main, footer */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk elemen header */
+header {
+    display: flex;
+    align-items: center; /* Mengatur vertikal align ke tengah */
+    padding: 1rem;
+    background-color: #5f5a5a;
+    color: #fff;
+}
+
+header img {
+    margin-right: 1rem; /* Mengatur margin kanan agar gambar berada di kiri */
+    /*mix-blend-mode: color-burn;  cann Activate */
+}
+
+header h1 {
+    margin: 0; /* Mengatur margin menjadi 0 agar judul berada di tengah */
+    flex: 1; /* Menggunakan flex untuk mengisi ruang yang tersedia */
+    text-align: center; /* Mengatur text align menjadi center */
+}
+
+
+nav {
+    background-color: #6b6868;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+nav ul {s
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    width: 100px;   
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+/* Gaya untuk elemen video */
+video {
+    max-width: 100%;
+}
+
+/* Gaya untuk elemen audio */
+audio {
+    width: 100%;
+}
+
+
